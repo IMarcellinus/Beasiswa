@@ -1,30 +1,19 @@
-#Cara membuat program beasiswa sederhana
+#cara membuat program sederhana beasiswa
 pilihan = 1
-while pilihan != 0:
-    print("1. Beasiswa Prestasi")
-    print("2. Beasiswa Bidikmisi/KIP Kuliah")
-    print("0. exit.")
+while pilihan != 0 :
+    print ("1. Beasiswa Prestasi")
+    print ("0. Exit")
     print('')
-
-    pilihan = int(input("Masukkan Pilihan : "))
     print('')
     
-    if pilihan==1:
-        nama = input("Masukkan Nama : ")
-        IPK = input("Masukkan IP : ")
-        if float(IPK >= 3.0):
-            print("SELAMAT ANDA BERHAK MENDAPATKAN BEASISWA PRESTASI")
-        else:
-            print("MOHON MAAF ANDA BELUM BERUNTUNG SILAHKAN COBA KEMBALI TAHUN DEPAN :)")
-    if pilihan==2:
-        nama = input("Masukkan Nama : ")
-        gaji_ortu = input("Masukkan Gaji Orang Tua : ")
-        if int(gaji_ortu <= 1000000):
-            print("SELAMAT ANDA BERHAK MENDAPATKAN BEASISWA BIDIKMISI/KIP KULIAH")
-            print('')
-        else:
-            print("MOHON MOHON MAAF ANDA BELUM BERUNTUNG SILAHKAN COBA KEMBALI TAHUN DEPAN :)")
-            break
+    pilihan = int(input("masukkan pilihan anda : "))
     print('')
+    if pilihan == 1 :
+        nama = input("masukkan nama anda : ")
+        IPK = input("masukkan IPK : ")
+        if ("IPK => 3.0"):
+            print("SELAMAT ANDA MENDAPATKAN BEASISWA")
+        else:
+            print("MAAF ANDA KURANG BERUNTUNG")
     print('')
     print('')
