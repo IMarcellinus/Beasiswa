@@ -3,6 +3,7 @@ pilihan = 1
 while pilihan != 0:
     print("1. Beasiswa Prestasi")
     print("2. Beasiswa Bidikmisi/KIP Kuliah")
+    print("0. exit.")
     print('')
 
     pilihan = int(input("Masukkan Pilihan : "))
@@ -23,4 +24,7 @@ while pilihan != 0:
             print('')
         else:
             print("MOHON MOHON MAAF ANDA BELUM BERUNTUNG SILAHKAN COBA KEMBALI TAHUN DEPAN :)")
-            print('')
+            break
+    print('')
+    print('')
+    print('')
