@@ -10,10 +10,11 @@ while pilihan != 0 :
     print('')
     if pilihan == 1 :
         nama = input("masukkan nama anda : ")
-        IPK = input("masukkan IPK : ")
-        if ("IPK => 3.0"):
-            print("SELAMAT ANDA MENDAPATKAN BEASISWA")
+        ipk = int(input("masukkan IPK : "))
+        gaji = int(input("masukkan gaji orang tua : "))
+        if gaji >= 100000 and ipk >= 3:
+            print("Selamat anda mendapatkan beasiswa", nama)
         else:
-            print("MAAF ANDA KURANG BERUNTUNG")
+            print("Maaf anda kurang beruntung")
     print('')
     print('')
